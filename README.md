@@ -5,7 +5,7 @@ When running an influx cluster influx seems to lose some data when the cluster i
 ### Steps to reproduce
 Check out this repository, then run `run.sh`.
 ```
-$ git clone git@github.com/scarhand/influx-cluster-losing-data.git
+$ git clone git@github.com:scarhand/influx-cluster-losing-data.git
 $ cd influx-cluster-losing-data
 $ ./run.sh
 ```
