@@ -16,9 +16,9 @@ When the cluster is started, a database (mydb) will be created and some data wil
 The script will then sleep for 2 minutes before restarting the cluster. After the cluster has restarted it will run a `SHOW DATABASES` query.
 This will show that the database we created earlier does not exist.
 
-It will then create the database again and run a SELECT query. The result of this query will also be empty.
+It will then (re)create the database and run a SELECT query on that database. The result of this query will be empty, as can be expected with a new database.
 
-It will then insert some new data in the database and run a SELECT query again. The result of this query will show the new data *and* the old data.
+It will then insert some new data in the database and run the SELECT query again. The result of this query will show the new data *and* some of the old data.
 The datapoint with a timestamp in 2015 will be gone. Only 'recent' data is kept.
 
 
