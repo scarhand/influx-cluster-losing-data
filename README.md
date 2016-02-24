@@ -27,3 +27,5 @@ The datapoint with a timestamp in 2015 will be gone. Only 'recent' data is kept.
 - build.sh Builds the influx container
 - clear-data.sh Removes the mounted data directories
 - run_containers.sh Will start the cluster
+
+InfluxDB github issue: [github.com/influxdata/influxdb/issues/5817](https://github.com/influxdata/influxdb/issues/5817)
